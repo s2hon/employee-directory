@@ -2,7 +2,7 @@ import React from 'react';
 
 function Layout (props) {
     return (
-        <div className='container mx-auto'>
+        <div className='max-w-6xl px-10 mx-auto'>
             {props.children}
         </div>
     )

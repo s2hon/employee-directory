@@ -43,7 +43,7 @@ function App() {
     <div>
       <Header/>
       <Layout>
-        <h1 className='title text-5xl text-blue-900 mt-16'>Employee Directory</h1>
+        <h1 className='title text-4xl text-blue-900 mt-16'>Employee Directory</h1>
         <p className='mb-16 text-md'>Limitless Paper in a Paperless World</p>
         <NavBar 
           onSearch={searchBar}

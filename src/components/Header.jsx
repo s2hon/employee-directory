@@ -4,9 +4,10 @@ import logo from '../assets/icon/logo.png';
 function Header () {
     return (
         <div className='bg-white shadow'>
-            <header className='container mx-quto flex justify-between items-center'>
+            <header className='container mx-quto flex justify-between items-center' style={{maxHeight: '250px'}}>
                 <div className='flex items-center'>
-                    <img className='mr-3 object-scale-down' src={logo} alt='Dunder Mifflin Logo' />
+                    <img className='mr-3 object-scale-down' style={{maxHeight: '250px'}} src={logo} alt='Dunder Mifflin Logo' />
+                    <h1 className='title text-5xl text-blue-900 mt-16'>Scranton Branch</h1>
                 </div>
             </header>
         </div>
