@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Layout from './components/layout';
+import Header from './components/header';
+import NavBar from './components/nav';
+import EmployeeList from './components/employeeList';
+import Footer from './components/footer';
+import employees from './data/employeedb.json'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
