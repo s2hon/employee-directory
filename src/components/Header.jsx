@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/icon/logo.png';
 
-function Header() {
+function Header () {
     return (
         <div className='bg-white shadow'>
             <header className='container mx-quto flex justify-between items-center'>
@@ -13,3 +13,6 @@ function Header() {
         </div>
     )
 }
+
+export default Header;
+

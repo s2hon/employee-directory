@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function EmplyeeCard ({image, name, dept, email, phone}) {
+class EmplyeeCard extends Component ({image, name, dept, email, phone}) {
     return (
         <div className='bg-white shadow text-gray-800 rounded-md items-center justify-between hover:bg-gray-300'>
             <img 

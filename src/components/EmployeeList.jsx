@@ -1,5 +1,5 @@
 import React from 'react';
-import EmployeeCard from './employeeCard';
+import EmployeeCard from './EmployeeCard';
 
 function EmployeeList ({ data }) {
     return (
