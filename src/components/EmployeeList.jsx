@@ -8,7 +8,7 @@ function EmployeeList ({ data }) {
                 key={employee.id}
                 image={employee.image}
                 name={employee.name}
-                dept={employee.dept}
+                dept={employee.department}
                 email={employee.email}
                 phone={employee.phone}
             />

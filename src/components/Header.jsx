@@ -6,8 +6,7 @@ function Header () {
         <div className='bg-white shadow'>
             <header className='container mx-quto flex justify-between items-center'>
                 <div className='flex items-center'>
-                    <img className='mr-3' src={logo} alt='Dunder Mifflin Logo' />
-                    <h1 className='font-bold'>Dunder Mifflin: Scranton</h1>
+                    <img className='mr-3 object-scale-down' src={logo} alt='Dunder Mifflin Logo' />
                 </div>
             </header>
         </div>

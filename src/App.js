@@ -5,7 +5,6 @@ import NavBar from './components/Nav';
 import EmployeeList from './components/EmployeeList';
 import Footer from './components/Footer';
 import employees from './data/employeedb.json'
-import 'tailwindcss/tailwind.css';
 
 function App() {
   const [search, setSearch] = useState("");
@@ -44,8 +43,8 @@ function App() {
     <div>
       <Header/>
       <Layout>
-        <h1 className='title text-xl text-blue-900'>Employee Directory</h1>
-        <p className='text-sm'>Limitless Paper in a Paperless World</p>
+        <h1 className='title text-5xl text-blue-900 mt-16'>Employee Directory</h1>
+        <p className='mb-16 text-md'>Limitless Paper in a Paperless World</p>
         <NavBar 
           onSearch={searchBar}
           search={search}

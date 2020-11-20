@@ -5,7 +5,7 @@ function NavBar ({onSearch, search, arrbyName, arrbyDept}) {
         <div className='md:flex justify-between'>
             <div>
                 <button onClick={arrbyName} className='bg-white focus:bg-blue-500 focus:text-white focus:outline-none shadow font-bold hover:bg-blue-500 hover:text-white'>Name</button>
-                <button onClick={arrbyDept} className='bg-white focus:bg-blue-500 focus:text-white focus:outline-none shadow font-bold hover:bg-blue-500 hover:text-white'>Name</button>
+                <button onClick={arrbyDept} className='bg-white focus:bg-blue-500 focus:text-white focus:outline-none shadow font-bold hover:bg-blue-500 hover:text-white'>Department</button>
             </div>
             <form>
                 <input 
